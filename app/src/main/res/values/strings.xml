@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Android_School</string>
+    <string name="scheme">guet</string>
+    <string name="host">android</string>
+</resources>

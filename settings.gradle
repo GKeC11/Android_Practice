@@ -1,0 +1,3 @@
+include ':Module_Common'
+include ':app'
+rootProject.name = "Android_School"

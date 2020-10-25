@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/et_text"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/b_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Send"/>
+
+        <Button
+            android:id="@+id/b_Counter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Counter"/>
+
+        <Button
+            android:id="@+id/b_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"/>
+
+        <Button
+            android:id="@+id/b_news"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="News"/>
+
+        <Button
+            android:id="@+id/b_music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Music"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
